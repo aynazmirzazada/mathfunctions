@@ -1,0 +1,9 @@
+from numpy import *
+import numpy as np
+
+def func(str1):
+    rev = ''
+    for i in range(len(str1), 0, -1):
+        rev += str1[i-1]
+    return rev
+func('Python')
