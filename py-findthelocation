@@ -1,0 +1,10 @@
+from numpy import *
+import numpy as np
+
+vec=array([17,22,35,46])
+
+def location(n):
+    if(n in vec):
+        return(np.where(vec==n))[0][0]
+    else:
+        return("None")
